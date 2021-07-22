@@ -1,4 +1,4 @@
-package com.projeto.equalshashcode;
+package com.projeto.uso_queue;
 
 import java.util.Objects;
 
@@ -28,5 +28,12 @@ public class Carro {
     @Override
     public int hashCode() {
         return Objects.hash(marca);
+    }
+
+    @Override
+    public String toString() {
+        return "Carro{" +
+                "marca='" + marca + '\'' +
+                '}';
     }
 }
